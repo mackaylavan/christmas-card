@@ -4,6 +4,7 @@ body {
     background-color: whitesmoke;
     font-family: 'Playfair Display', serif;
     color: #fff;
+    width: 100%;
   }
   
   #hero {
@@ -11,11 +12,12 @@ body {
     overflow: hidden;
     position: relative;
     margin: 0 auto;
+    max-width: 100%;
   }
   
   #content {
     background-color: white;
-    height: 800px;
+    height: 1000px;
   }
   
   .layer {
@@ -91,5 +93,7 @@ body {
   footer{
    height: 300px;
    margin: 0 auto;
+   opacity: 80%;
+   width: 100%;
   }
  
